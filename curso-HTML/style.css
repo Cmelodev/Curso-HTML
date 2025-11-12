@@ -1,8 +1,15 @@
+.menu{
+    color:black;
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+
 .l1 li {
-    color: blue;
+    color: black;
     display: flex;
   }
   
 .l2 {
-    color: cyan;
+    color: red;
 }

@@ -1,15 +1,34 @@
-.menu{
+.menu-1{
     color:black;
     border: 3px solid blue;
+    gap: 5px;
     display: flex;
-    justify-content: space-around;
+    align-items: center; 
 }
 
-.l1 li {
-    color: black;
+.categorias {
     display: flex;
-  }
-  
-.l2 {
-    color: red;
+    width: 500px;
+    list-style: disc;
+    margin-left: 40%;
+    padding: 0;
+}
+
+.categorias li{
+    margin-left: 20%;
+    display: flex;
+}
+main{
+    height: 80%;
+    border: 3px solid red;
+    
+}
+img{
+    border: 3px solid black;
+    margin: 30px
+}
+
+body{
+    margin: 0px;
+    padding: 0%;
 }
